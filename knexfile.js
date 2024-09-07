@@ -1,9 +1,9 @@
 const path = require("path");
 
 require("dotenv").config();
-//= "postgresql://capstone_tp1g_user:zZWG1tENOJ8FmH4YH41epkjthHsdW2yJ@dpg-crd5v2rtq21c73ctvvv0-a.singapore-postgres.render.com/capstone_tp1g?ssl=true",
+
 const {
-  DATABASE_URL
+  DATABASE_URL = "postgresql://capstone_tp1g_user:zZWG1tENOJ8FmH4YH41epkjthHsdW2yJ@dpg-crd5v2rtq21c73ctvvv0-a.singapore-postgres.render.com/capstone_tp1g?ssl=true"
 } = process.env;
 
 module.exports = {
